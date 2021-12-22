@@ -256,9 +256,11 @@ body, html {
 .order-number-input {
   height: 28px;
   width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
-.order-number-input::-webkit-inner-spin-button {
+.order-number-input:hover ::-webkit-inner-spin-button {
   opacity: 1;
 }
 
